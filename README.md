@@ -39,7 +39,7 @@ A base de dados contém uma única tabela chamada `products`, com os seguintes c
 1. **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/seu-usuario/nunes-sports-product-management.git
+    git clone https://github.com/ChristianSPires/nunes-sports-product-management
     cd nunes-sports-product-management
     ```
 
