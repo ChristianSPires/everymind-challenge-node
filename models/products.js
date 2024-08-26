@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const AutoIncrement = require("mongoose-sequence")(mongoose);
 
 const productSchema = new mongoose.Schema({
-  code: {
+  id: {
     type: Number,
     unique: true,
   },
@@ -24,6 +24,6 @@ const productSchema = new mongoose.Schema({
   },
 });
 
-productSchema.plugin(AutoIncrement, { inc_field: "code" });
+productSchema.plugin(AutoIncrement, { inc_field: "id" });
 
 module.exports = mongoose.model("Products", productSchema);
