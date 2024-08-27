@@ -54,7 +54,7 @@ A base de dados contém uma única tabela chamada `products`, com os seguintes c
     - Crie um banco de dados no MongoDB chamado `nunes_sports`.
     - Dentro desse banco, crie uma coleção chamada `products`.
   
-4. **Configure o Arquivo .env:**
+4. **Configure o arquivo .env:**
 
     - Crie um arquivo na pasta raiz chamado `.env`.
     - Dentro desse arquivo, adicione a porta do seu servidor local e URI do seu servidor MongoDB, assim como no arquivo `.env.example`.
