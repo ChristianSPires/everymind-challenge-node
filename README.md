@@ -62,7 +62,7 @@ A base de dados contém uma única tabela chamada `products`, com os seguintes c
 
 5. **Acesse a aplicação:**
 
-    Abra o navegador e vá para `http://localhost:5000`.
+    Abra o navegador e vá para `http://localhost:3000`.
 
 ## Boas Práticas Adotadas
 
