@@ -104,7 +104,6 @@ router.post("/update/:id", upload, async (req, res) => {
 
     const price = parseFloat(req.body.price).toFixed(2);
 
-    // Update the product with the new data
     product.name = req.body.name;
     product.description = req.body.description;
     product.price = price;
